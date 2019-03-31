@@ -2,84 +2,26 @@
 
 <head>
   <title>about Writing and Ruins blog</title>
-  <link href="/css/normalize.css" rel="stylesheet">
   <link rel="shortcut icon" href="https://raw.githubusercontent.com/gaebar/css-test/master/img/favicon.ico"
     type="image/x-icon">
+
+  <!-- Added normalize CSS stylesheet -->
+  <link href="/css/normalize.css" rel="stylesheet">
+
+  <!-- jQuery library added to enable carousel -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <!-- Following the tutorial for adding the Slick Carousel at http://kenwheeler.github.io/slick/ -->
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+
+  <!-- Hosted styles, from the Slick Slider team -->
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
 
-  <style>
-    body {
-      background-color: white;
-      font-family: "Lato", sans-serif;
-    }
-
-    header {
-      text-align: center;
-      background-size: cover;
-      color: black;
-    }
-    a {
-      color: darkblue;
-    }
-
-    h1 {
-      font-size: 40px;
-    }
-
-    img {
-      margin: 40px 0px 0px 0px;
-      border: 7px;
-    }
-
-    ul {
-      padding: 10px;
-      background: rgba(0, 0, 0, 0.5);
-    }
-
-    li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-    }
-
-    article {
-      max-width: 500px;
-      padding: 20px;
-      margin: 0 auto;
-    }
-
-    @media (max-width: 500px) {
-      h1 {
-        font-size: 36px;
-        padding: 5px;
-      }
-
-      li {
-        padding: 5px;
-        display: block;
-      }
-    }
-
-    .slick-slider {
-      position: relative;
-      display: block;
-      box-sizing: border-box;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      -webkit-touch-callout: none;
-      -khtml-user-select: none;
-      -ms-touch-action: pan-y;
-      touch-action: pan-y;
-      -webkit-tap-highlight-color: transparent;
-    }
-  </style>
+  <!-- Added an external stylesheet, when publishing to dash, use the github hosted version instead
+  https://github.com/gaebar/css-test/blob/master/css/styles.css -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
 
 <body>
@@ -91,40 +33,39 @@
       <li><a href="#">Books</a></li>
     </ul>
   </header>
-  <div class="carouse-container">
+  <div class="carousel-container">
     <div class="slick-slider">
       <div>
         <div class="image">
-          <img src="https://diruderiediscrittura.files.wordpress.com/2018/07/2fpddfwsjfnovbqyjgyeqkdq8qh.jpg?w=768" />
+          <img src="https://raw.githubusercontent.com/gaebar/css-test/master/img/slide1-resize.jpg" />
         </div>
       </div>
       <div>
         <div class="image">
-          <img src="https://diruderiediscrittura.files.wordpress.com/2017/09/halloweennauo1_500-copia.png" />
+          <img src="https://raw.githubusercontent.com/gaebar/css-test/master/img/slide2-resize.jpg" />
         </div>
       </div>
       <div>
         <div class="image">
-          <img
-            src="https://diruderiediscrittura.files.wordpress.com/2017/09/terradelrimorso_min-1024x1024.jpg?w=370&h=370" />
+          <img src="https://raw.githubusercontent.com/gaebar/css-test/master/img/slide3-resize.jpg" />
         </div>
       </div>
     </div>
   </div>
   <article>
     <h2>Antonioni: Monica Vitti aveva paura</h2>
-    <p>Potrei cominciare dalla tromba d’aria, che quando la vidi arrivare impennata sul mare, sfumata in alto 
-      come un altissimo fungo con il cappello perso fra le nuvole, gridai all’operatore di portare la macchina da presa, 
+    <p>Potrei cominciare dalla tromba d’aria, che quando la vidi arrivare impennata sul mare, sfumata in alto
+      come un altissimo fungo con il cappello perso fra le nuvole, gridai all’operatore di portare la macchina da presa,
       subito, e girare.
-    <p>Ma Monica Vitti aveva paura e allora uno dei pescatori che lavoravano per noi le disse che 
-      lui sapeva tagliare la tromba, suo padre gli aveva confidato le parole magiche in chiesa durante una notte di 
-      Natale anni prima, difatti le pronunciò e la tromba svanì. </p>
-      <p>E io mi arrabbiai perché quella tromba era esattamente 
-      ciò che mi serviva per dare il mistero all’isola, un materiale plastico formidabile, e il giorno dopo volevo 
-      licenziare il pescatore ma non potei farlo, si era messo una benda attorno alla testa per riparare dal vento 
-      delle Eolie una guancia gonfia come un pallone, un mal di denti improvviso che era una punizione di dio, perché 
-      il pescatore aveva preso il suo posto tagliando la tromba. [...]</p>
-    <button>Like</button>
+      <p>Ma Monica Vitti aveva paura e allora uno dei pescatori che lavoravano per noi le disse che
+        lui sapeva tagliare la tromba, suo padre gli aveva confidato le parole magiche in chiesa durante una notte di
+        Natale anni prima, difatti le pronunciò e la tromba svanì. </p>
+      <p>E io mi arrabbiai perché quella tromba era esattamente
+        ciò che mi serviva per dare il mistero all’isola, un materiale plastico formidabile, e il giorno dopo volevo
+        licenziare il pescatore ma non potei farlo, si era messo una benda attorno alla testa per riparare dal vento
+        delle Eolie una guancia gonfia come un pallone, un mal di denti improvviso che era una punizione di dio, perché
+        il pescatore aveva preso il suo posto tagliando la tromba. [...]</p>
+      <button>Like</button>
   </article>
   <article>
     <h2>Sartorial synth Echo Park, roof party</h2>
@@ -141,15 +82,13 @@
     <button>Like</button>
   </article>
   <script>
-    $("button").on("click", function () {
-      alert("Clicked!");
-    });
-
     $(document).ready(function () {
       $('.slick-slider').slick({
       });
     });
   </script>
+
+  <!-- Added hosted version of the Slick Carousel javascript file, from https://cdnjs.com/libraries/slick-carousel -->
   <script type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 </body>

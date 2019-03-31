@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  text-align: center;
+  background-size: cover;
+  color: black;
+}
+
+a {
+  color: darkblue;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+img {
+  margin: 40px 0px 0px 0px;
+  border: 7px;
+}
+
+ul {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slick-slider img {
+  width: 100%;
+}
+
+.slick-next:before, .slick-prev:before {
+  color: #840f0f;
+}
