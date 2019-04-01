@@ -10,8 +10,30 @@ header {
   color: black;
 }
 
+footer {
+  text-align: center;
+  padding: 0px;
+  bottom: 0px;
+  width: 100%;
+  padding-bottom: 10px;
+  border-top: 3px solid #00008b0d;
+  padding-top: 24px;
+  background-color: #ffffff7a;
+}
+
 a {
+  text-decoration: none;
+  font-weight: bold;
   color: darkblue;
+  padding: 0px 10px 0px 10 px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.footer-love em{
+  font-style: normal;
+  color: #840f0f;
 }
 
 h1 {
