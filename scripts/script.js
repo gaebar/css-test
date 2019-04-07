@@ -19,5 +19,5 @@ months[10] = "November";
 months[11] = "December";
 
 var monthString = months[currentDate.getMonth()];
-var stringDate = currentDate.getDay() + ' ' + monthString + ' ' + currentDate.getFullYear();
+var stringDate = currentDate.getDate() + ' ' + monthString + ' ' + currentDate.getFullYear();
 $('ins').text(stringDate);
