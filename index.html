@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- 
+<head>
+  <!-- 
   See the most updated version on GitHub at https://github.com/gaebar/css-test 
   GA excercise link: http://dash.ga.co/RileyGame/build-your-own-blog-theme
 -->
-<head>
   <title>on Ruins and Writing </title>
   <link rel="shortcut icon" href="https://raw.githubusercontent.com/gaebar/css-test/master/img/favicon.ico"
     type="image/x-icon">
@@ -48,7 +48,7 @@
       <li><a href="/">Books</a></li>
     </ul>
   </header>
-  
+
   <div class="carousel-container">
     <div class="slick-slider">
       <div>
@@ -124,34 +124,10 @@
     <p class="footer-love">Made with <em>&hearts;</em></p>
   </footer>
 
-  <script>
-    $(document).ready(function () {
-      $('.slick-slider').slick({
-      });
-    });
-
-    var currentDate = new Date();
-    var months = new Array();
-    months[0] = "January";
-    months[1] = "February";
-    months[2] = "March";
-    months[3] = "April";
-    months[4] = "May";
-    months[5] = "June";
-    months[6] = "July";
-    months[7] = "August";
-    months[8] = "September";
-    months[9] = "October";
-    months[10] = "November";
-    months[11] = "December";
-
-    var monthString = months[currentDate.getMonth()];
-    var stringDate = + currentDate.getDay() + ' ' + monthString + ' ' + currentDate.getFullYear();
-    $('ins').text(stringDate);
-  </script>
+  <script src="https://gaebar.github.io/css-test/scripts/script.js"></script>
 
   <!-- Added hosted version of the Slick Carousel javascript file, from https://cdnjs.com/libraries/slick-carousel -->
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 </body>
+
 </html>
