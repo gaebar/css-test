@@ -1,4 +1,3 @@
-# css-test
-PROJECT 2: BUILD A RESPONSIVE BLOG THEME
+# Simple Responsive Blog Theme - GA Exercise
 
-The preview is available at https://gaebar.github.io/css-test/
+The preview is available at https://gaebar.github.io/simple-blog-theme/
